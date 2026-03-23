@@ -12,7 +12,7 @@ function App() {
       <Card className="shadow-md border rounded-xl">
         <CardContent className="p-4">
           <p>Count : {count}</p>
-          <Button variant="default" onClick={increment}>Increment</Button>
+          <Button variant="destructive" onClick={increment}>Increment</Button>
         </CardContent>
       </Card>
       <Card className="shadow-md border rounded-xl">
